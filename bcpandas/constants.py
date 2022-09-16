@@ -47,7 +47,8 @@ read_data_settings = {"delimiter": "\\t", "newline": NEWLINE}
 
 # BCP Format File terms
 SQLCHAR = "SQLCHAR"
-sql_collation = "SQL_Latin1_General_CP1_CI_AS"
+# sql_collation = "SQL_Latin1_General_CP1_CI_AS"
+sql_collation = "SQL_POLISH_CI_AS"
 
 
 error_msg = """Data contains all of the possible {typ} characters {opts},
